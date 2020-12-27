@@ -31,9 +31,9 @@ const JobCard = styled.a`
   `}
 `
 
-const Portifolio = ({ className, location }) => {
-  const title = "Portefolio"
-  const { keywords, portifolio } = siteConfig
+const portfolio = ({ className, location }) => {
+  const title = "Portfolio"
+  const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -42,14 +42,14 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/internet.jpg')}
         title={title}
       />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portifolio.map(job => (
+            {portfolio.map(job => (
               <Col
                 key={job.description}
                 align="center"
@@ -71,7 +71,7 @@ const Portifolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portifolio)`
+export default styled(portfolio)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;

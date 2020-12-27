@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Bonjour ! je m\'appelle François, Bienvenue !',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  keyWords: ['gatsbyjs', 'react', 'curriculum', 'portfolio'],
+  authorName: 'François Delourme',
+  githubUsername: 'Francois2344',
+  authorAvatar: '/images/avatar.png',
+  authorDescription: `Après 7 années passées dans la marine marchande, j'ai entrepris une reconversion professionnelle <br /> 
+  en tant que Développeur Web et Web mobile avec la Wild Code School de Nantes. <br />
+  Nous apprenons à travers des projets ou évenements l'apprentissage de differents languages et technologies comme React JS et Node JS. <br />
+  Ma passion pour l'informatique et les nouvelles technologies m'ont orienté vers cette formation.
+  A travers l'apprentissage permanent et ma curiosité, je suis déterminé à réussir ma nouvelle vie professionnelle.`,
   skills: [
     {
       name: 'HTML',
@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 50
     },
     {
       name: 'React',
@@ -33,75 +33,90 @@ module.exports = {
     },
     {
       name: 'Git',
-      level: 70
+      level: 60
     },
-    /* more skills here */
+    {
+      name: 'MySQL',
+      level: 50
+    },
   ],
   jobs: [
-    /* more jobs here */
     {
-      company: "Gympass",
+      company: "Brittany Ferries",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'Avr',
+        year: '2013'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      duration: '7 ans',
+      occupation: "Steward Accueil et Ventes",
+      description: "Accueil, vente et service à bord, assurer la sécurité des passagers, gestion des commandes (promotion interne Aide Boutique)."
   
     },  {
-      company: "Lendico",
+      company: "ISS Charlestown",
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
+        month: 'Sep',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '6 mois',
+      occupation: "Hôte Evenementiel",
+      description: "Accueil, Promotion, Distribution, Evenmentiel."
   
-    },
+    }, {
+      company: "HTDL",
+      begin: {
+        month: 'Mar',
+        year: '2012'
+      },
+      duration: '7 mois',
+      occupation: "Technico-Commercial",
+      description: "Identifier et definir les exigences du client, rédiger la proposition commercial, fidéliser et organiser les plans d'actions commerciales."
+    }, {
+      company: "Hertz",
+      begin: {
+        month: 'Jui',
+        year: '2011'
+      },
+      duration: '4 mois',
+      occupation: "Chargé de Clientièle",
+      description: "Vente de produit et service, Création des contrats de locations, Assurer et gérer le suivi administratif des véhicules."
+  
+    }, {
+      company: "Hop!",
+      begin: {
+        month: 'Oct',
+        year: '2008'
+      },
+      duration: '1 an',
+      occupation: "Agent Logistique PN",
+      description: "Réservation et gestion des Hôtels, location de Voitures, billets d’avions, Gestion du catering (plateaux repas) pour l’équipage, Répondre aux besoins des personnels navigants technique et commercial, Gestion des plannings en collaboration avec les agents de Régulation"
+    }
   ],
-  portifolio: [
+  portfolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/logo-ecureuil44.jpg",
+      description: "1er Projet en HTML, CSS et JS",
+      url: "https://adopte-un-ecureuil.netlify.app"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/Nant'Event(1).png",
+      description: "2nd Projet avec React, Création d'un Agenda Culturel",
+      url: "https://nant-events.netlify.app/"
     },
-    /* more portifolio items here */
+    {
+      image: "/images/Middle Trade red.png",
+      description: "Projet Réaliser pendant un Hackathon avec React",
+      url: "https://middle-trade.netlify.app/"
+    },
+    
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: "https://www.linkedin.com/in/fdelourme2344/",
+    github: "https://github.com/Francois2344",
+    email: "deloufr@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/web.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
@@ -111,12 +126,12 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Home',
+      label: 'Accueil',
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Portfolio',
+      url: '/portfolio',
     }
   ]
 }

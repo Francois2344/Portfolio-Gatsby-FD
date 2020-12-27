@@ -28,7 +28,7 @@ class Repositories extends React.Component {
     const { status } = this.state
     return (
       <div className={this.props.className}>
-        <h2>Latest repositories on Github</h2>
+        <h2>Derniers Repos sur GitHub</h2>
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
           this.state.repos && (
@@ -62,7 +62,7 @@ class Repositories extends React.Component {
                   href={`https://github.com/${siteConfig.githubUsername}`}
                   target="_blank"
                 >
-                  See all my repositories
+                  Voir mes repos
                   <GoLinkExternal style={{ marginLeft: 8 }} />
                 </a>
               </div>
