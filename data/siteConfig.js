@@ -5,9 +5,8 @@ module.exports = {
   authorName: 'François Delourme',
   githubUsername: 'Francois2344',
   authorAvatar: '/images/avatar.png',
-  authorDescription: `Après 7 années passées dans la marine marchande, j'ai entrepris une reconversion professionnelle <br /> 
-  en tant que Développeur Web et Web mobile avec la Wild Code School de Nantes. <br />
-  Nous apprenons à travers des projets ou évenements l'apprentissage de differents languages et technologies comme React JS et Node JS. <br />
+  authorDescription: `Après 7 années passées dans la marine marchande, j'ai entrepris une reconversion professionnelle en tant que Développeur Web et Web mobile avec la Wild Code School de Nantes.
+  Nous apprenons, à travers des projets ou évenements, différents langages et technologies comme React JS et Node JS. <br />
   Ma passion pour l'informatique et les nouvelles technologies m'ont orienté vers cette formation.
   A travers l'apprentissage permanent et ma curiosité, je suis déterminé à réussir ma nouvelle vie professionnelle.`,
   skills: [
@@ -49,7 +48,7 @@ module.exports = {
       },
       duration: '7 ans',
       occupation: "Steward Accueil et Ventes",
-      description: "Accueil, vente et service à bord, assurer la sécurité des passagers, gestion des commandes (promotion interne Aide Boutique)."
+      description: "Accueil, vente et service à bord, assurer la sécurité des passagers, gestion des commandes."
   
     },  {
       company: "ISS Charlestown",
@@ -59,7 +58,7 @@ module.exports = {
       },
       duration: '6 mois',
       occupation: "Hôte Evenementiel",
-      description: "Accueil, Promotion, Distribution, Evenmentiel."
+      description: "Accueil, Promotion, Distribution, Evenementiel."
   
     }, {
       company: "HTDL",
@@ -69,7 +68,7 @@ module.exports = {
       },
       duration: '7 mois',
       occupation: "Technico-Commercial",
-      description: "Identifier et definir les exigences du client, rédiger la proposition commercial, fidéliser et organiser les plans d'actions commerciales."
+      description: "Identifier et definir les exigences du client, rédiger la proposition commerciale, fidéliser et organiser les plans d'actions commerciales."
     }, {
       company: "Hertz",
       begin: {
@@ -88,7 +87,7 @@ module.exports = {
       },
       duration: '1 an',
       occupation: "Agent Logistique PN",
-      description: "Réservation et gestion des Hôtels, location de Voitures, billets d’avions, Gestion du catering (plateaux repas) pour l’équipage, Répondre aux besoins des personnels navigants technique et commercial, Gestion des plannings en collaboration avec les agents de Régulation"
+      description: "Réservation et gestion des hôtels, location de voitures, billets d’avions, gestion du catering (plateaux repas) pour l’équipage, répondre aux besoins des personnels navigants technique et commercial, Gestion des plannings en collaboration avec les agents de régulation"
     }
   ],
   portfolio: [
@@ -103,7 +102,7 @@ module.exports = {
       url: "https://nant-events.netlify.app/"
     },
     {
-      image: "/images/Middle Trade red.png",
+      image: "/images/Middle Trade.png",
       description: "Projet Réaliser pendant un Hackathon avec React",
       url: "https://middle-trade.netlify.app/"
     },
@@ -116,7 +115,7 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/web.jpg',
+  siteCover: '/images/city-5.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
