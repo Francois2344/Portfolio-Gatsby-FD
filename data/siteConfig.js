@@ -106,7 +106,11 @@ module.exports = {
       description: "Projet Réaliser pendant un Hackathon avec React",
       url: "https://middle-trade.netlify.app/"
     },
-    
+    {
+      image: "/images/Wild Meteo.png",
+      description: "Petite application Météo réaliser avec React",
+      url: "https://wild-meteo-fd.netlify.app"
+    },
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/fdelourme2344/",
