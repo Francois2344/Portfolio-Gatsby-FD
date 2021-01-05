@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Bonjour ! je m\'appelle François, Bienvenue !',
+  siteTitle: 'Bonjour ! Je m\'appelle François, bienvenue !',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum', 'portfolio'],
   authorName: 'François Delourme',
@@ -103,12 +103,12 @@ module.exports = {
     },
     {
       image: "/images/Middle Trade.png",
-      description: "Projet Réaliser pendant un Hackathon avec React",
+      description: "Projet réalisé pendant un Hackathon avec React",
       url: "https://middle-trade.netlify.app/"
     },
     {
       image: "/images/Wild Meteo.png",
-      description: "Petite application Météo réaliser avec React",
+      description: "Petite application Météo réalisée avec React",
       url: "https://wild-meteo-fd.netlify.app"
     },
   ],
